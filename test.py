@@ -41,7 +41,7 @@ print("Hello" + " World")
 print("Hello" * 3)
 print(len("Hello World"))
 #n = input("Enter your name: ")
-print("Hello " + n  + "!")
+#print("Hello " + n  + "!")
 
     #Useful functions
 print(len("Happy Birthday"))
@@ -53,3 +53,9 @@ def addTwoNums (x,y) :
     print("The sum of the two given numbers is " + sumOfNum + ".")
 
 #Print vs Return
+def tester():
+    print("Hey")
+    return("Bye")
+
+x = tester()
+print(x)
