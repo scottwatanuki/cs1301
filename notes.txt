@@ -2,6 +2,7 @@
     #This is a comment in python!
 
 #Values, Variables, and Data Types
+NO need to write let, const, var, etc. Just the variable name and the '=' operator
     #type function 
 print(type("Hello World"))
 print(type(15))
@@ -51,3 +52,44 @@ print(len("Happy Birthday"))
 def addTwoNums (x,y) : 
     sumOfNum = x + y
     print("The sum of the two given numbers is " + sumOfNum + ".")
+
+#Print vs Return
+def test():
+    print("Hello World")
+>>>result = test()
+Hello World #Only what is printed will be outputted.
+>>>>print(result)
+None #Nothing was returned and stored in the function.
+
+def tester():
+    print("Hey")
+    return("Bye")
+
+tester() #code inside tester() is outputted but not what's returned because that value isn't saved.
+
+def testing(): # Same thing
+    print("1")
+    return 2
+    print("3")
+
+testing()
+
+#Conditionals
+Priority: parentheses>not>and>or
+
+elif
+
+Short-circuit evaluation
+- Or: if the first statement is true, it will return true and not evaluate the other statements
+- And: if first statement is false, it will return false and not evaluate the other statements
+
+#Iterations
+hello = ["Joe", "Sam", "Jacob"]
+
+for i in hello:
+    print(i)
+
+ALWAYS initialize the counter before the loop and do increment/decrement in the loop
+
+#Review
+-print vs return
