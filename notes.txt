@@ -91,5 +91,22 @@ for i in hello:
 
 ALWAYS initialize the counter before the loop and do increment/decrement in the loop
 
+* Choosing between for and while:
+    for: sure of many iterations are needed (definite)
+    while: unsure how many iterations are needed (indefinite)
+
+*Break
+*Continue
+*Range
+    range(4) 
+    >>> [0,1,2,3]
+    range(5,11)
+    >>> [5,6,7,8,9,10]
+    range(5,11,2)
+    >>> [5,7,9]
+
+#Binary Conversions
+
+
 #Review
 -print vs return
