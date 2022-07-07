@@ -106,7 +106,7 @@ ALWAYS initialize the counter before the loop and do increment/decrement in the 
     >>> [5,7,9]
 
 #Binary Conversions
-
+    Decimal to Binary
 
 #Review
 -print vs return
