@@ -107,6 +107,7 @@ ALWAYS initialize the counter before the loop and do increment/decrement in the 
 
 #Binary Conversions
     Decimal to Binary
+    1,2,4,8,16,32,64,128
 
 #Review
 -print vs return
