@@ -108,7 +108,8 @@ ALWAYS initialize the counter before the loop and do increment/decrement in the 
 #Binary Conversions
     Decimal to Binary
     1,2,4,8,16,32,64,128
-    i.e.: decimal 33 is 100001
+    i.e.: 33 (decimal) is 100001 (binary)
+    i.e.: 1010 (binary) is 10 (decimal)
 
 #Review
 -print vs return
