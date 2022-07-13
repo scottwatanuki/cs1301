@@ -111,5 +111,6 @@ ALWAYS initialize the counter before the loop and do increment/decrement in the 
     i.e.: 33 (decimal) is 100001 (binary)
     i.e.: 1010 (binary) is 10 (decimal)
     
+    
 #Review
 -print vs return
